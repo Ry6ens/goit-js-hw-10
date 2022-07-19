@@ -10,6 +10,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  padding: 20px 50px;
 }
 
 #search-box {
@@ -19,6 +20,34 @@ body {
   margin-bottom: 16px;
 }
 
+.country__card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  width: 450px;
+
+  border: 1px solid #303030;
+  box-shadow: 0 0 10px 0 #cccccc;
+
+  &-list {
+    width: 450px;
+    margin-bottom: 20px;
+  padding: 10px 10px;
+
+    border: 1px solid #303030;
+      box-shadow: 0 0 10px 0 #cccccc;
+  }
+}
+
+// .country__card-list {
+//   width: 200px;
+// }
+
 .country__name {
   margin-left: 20px;
+}
+
+.coutry__thumb {
+  display: flex;
+  align-items: center;
 }
